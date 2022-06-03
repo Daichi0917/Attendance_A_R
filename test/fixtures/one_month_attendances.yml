@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month: 2022-04-18
+  status: MyString
+  approver: 1
+  user_id: 1
+  checked: false
+
+two:
+  month: 2022-04-18
+  status: MyString
+  approver: 1
+  user_id: 1
+  checked: false

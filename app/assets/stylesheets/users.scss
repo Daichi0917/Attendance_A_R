@@ -1,0 +1,155 @@
+/* ユーザー情報テーブル */
+
+.user-table {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-arrow-left {
+  margin-right: 20px;
+}
+
+.btn-arrow-right {
+  margin-left: 20px;
+}
+
+// 申請のお知らせボタン
+
+.request-exist a {
+  color: red;
+}
+
+.number-of-notice {
+  border: 3px solid red;
+  color: red;
+  font-weight: bold;
+}
+
+.no-border {
+  border: none;
+}
+
+// ファイル選択 & CSVインポート
+
+.select-file {
+  position: relative;
+  z-index: 2;
+}
+
+#filename {
+  margin-left: -5px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ユーザー情報下ボタン */
+
+.btn-users-show {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ユーザー勤怠情報テーブル */
+
+#table-attendances {
+  margin-top: 20px;
+  
+  th {
+    vertical-align: bottom;
+    text-align: center;
+  }
+  td {
+    vertical-align: bottom;
+    text-align: center;
+  }
+}
+
+.one-month-attendance-status {
+  margin-left: 10px;
+}
+
+/* 入力フォーム */
+
+.label-signup {
+  margin-top: 5px;
+}
+
+.btn-signup {
+  margin-top: 10px;
+}
+
+.label-user--edit {
+  margin-top: 5px;
+}
+
+.btn-user--edit {
+  margin-top: 10px;
+}
+
+// 土日の色を変更
+
+.saturday {
+  color: blue;
+}
+
+.sunday {
+  color: red;
+}
+
+/* ユーザー一覧ページ */
+
+#table-users {
+  td {
+    border: 0px none;
+    vertical-align: middle;
+  }  
+}
+
+.user-name a {
+  color: black;
+}
+
+.csv-select {
+  display: inline-block;
+}
+
+.btn-csv-import {
+  margin-top: 15px;
+}
+
+.user-delete {
+  margin-top: 10px;
+  text_align: center;
+}
+
+.panel-heading {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+.btn-edit {
+  padding: 15px 30px;
+}
+
+.panel-collapse {
+  padding: 15px;
+}
+
+.label-user--edit {
+  margin-top: 10px;
+}
+
+.btn-user--edit {
+  margin-top: 15px;
+}
+
+// 出勤中社員一覧
+
+.employees-table {
+  th {
+   text-align: center; 
+  }
+  td {
+   text-align: center; 
+  }
+}
