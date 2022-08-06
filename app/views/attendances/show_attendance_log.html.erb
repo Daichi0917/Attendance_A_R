@@ -27,8 +27,8 @@
       <% @attendances.each do |attendance| %>
         <tr>
           <td><%= l(attendance.worked_on, format: :default) %></td>
-          <td><%= l(attendance.initial_started_at, format: :time) if attendance.initial_started_at.present? %></td>
-          <td><%= l(attendance.initial_finished_at, format: :time) if attendance.initial_finished_at.present? %></td>
+          <td><%= l(attendance.started_at, format: :time) if attendance.started_at.present? %></td>
+          <td><%= l(attendance.finished_at, format: :time) if attendance.finished_at.present? %></td>
           <td><%= l(attendance.changed_started_at, format: :time) if attendance.changed_started_at.present? %></td>
           <td><%= l(attendance.changed_finished_at, format: :time) if attendance.changed_finished_at.present? %></td>
           <td><%= User.find(attendance.approver).name if attendance.approver.present? %></td>

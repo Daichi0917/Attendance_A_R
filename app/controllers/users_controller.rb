@@ -20,7 +20,6 @@ class UsersController < ApplicationController
   
   def show
     @worked_sum = @attendances.where.not(started_at: nil).count
-    # debugger
   end
   
   def new
@@ -99,6 +98,6 @@ class UsersController < ApplicationController
     end
     
     def application_type
-      params[:type].present? ? @type = params[:type] : ""
+      @type = params[:type] if params[:type].present?
     end
 end

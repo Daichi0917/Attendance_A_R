@@ -7,7 +7,7 @@
     </div>
     <div class="modal-body">
       <div class="approve-one-month-attendances">
-        <%= form_with(model: @user, url: overtimes_apply_overtime_user_path(@user, date: @overtime.worked_on), local: true) do |f| %>
+        <%= form_with(model: @user, url: overtimes_apply_overtime_user_path, local: true) do |f| %>
           <h4>【残業申請】</h4>
           <table class="table table-bordered table-striped table-hover">
             <thead>
